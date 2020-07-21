@@ -20,7 +20,7 @@ export interface Options {
 
 export function convertNodeToElement(
     node: DomElement,
-    index: number,
+    index: number|string,
     transform: Transform,
 ): ReactElement;
 
